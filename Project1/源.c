@@ -3,11 +3,15 @@
 
 int main()
 {
-	int a = 0;
-	int b = 0;
-	int c = 0;
-	scanf("%d%d", &a, &b);
-	c = a + b;
-	printf("%d", c);
+
+	int age = 10;
+	if (age < 10)
+		printf("幼儿\n");
+	else if (age >= 10 && age < 18)
+		printf("未成年\n");
+	else if (age >= 18)
+		printf("成年\n");
+	else
+		printf("成年\n");
 	return 0;
 }
